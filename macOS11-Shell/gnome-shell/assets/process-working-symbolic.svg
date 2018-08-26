@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="process-working-symbolic.svg"
+   inkscape:export-filename="/home/sam/dev/RESOURCES/gnome-icon-theme-symbolic/src/gnome-stencils.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   height="16"
+   id="svg7384"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="16">
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:bbox-nodes="false"
+     inkscape:bbox-paths="true"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:current-layer="layer9"
+     inkscape:cx="5.6113943"
+     inkscape:cy="11.213567"
+     gridtolerance="10"
+     inkscape:guide-bbox="true"
+     guidetolerance="10"
+     id="namedview88"
+     inkscape:object-nodes="false"
+     inkscape:object-paths="false"
+     objecttolerance="10"
+     pagecolor="#3a3b39"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     showborder="false"
+     showgrid="false"
+     showguides="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-global="true"
+     inkscape:snap-grids="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-others="false"
+     inkscape:snap-to-guides="true"
+     inkscape:window-height="714"
+     inkscape:window-maximized="1"
+     inkscape:window-width="1332"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:zoom="11.313708">
+    <inkscape:grid
+       dotted="false"
+       empspacing="2"
+       enabled="true"
+       id="grid4866"
+       originx="40.0002px"
+       originy="100px"
+       snapvisiblegridlinesonly="true"
+       spacingx="1px"
+       spacingy="1px"
+       type="xygrid"
+       visible="true" />
+  </sodipodi:namedview>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <defs
+     id="defs7386">
+    <inkscape:path-effect
+       copytype="single_stretched"
+       effect="skeletal"
+       fuse_tolerance="0"
+       id="path-effect14384"
+       is_visible="true"
+       normal_offset="0"
+       pattern="m 217.02793,310.67147 0,3.32853 -16.01322,0 11.98549,-0.1422 -11.98549,-0.13869 11.98549,-0.13868 -11.98549,-0.13869 11.98549,-0.13869 -11.98549,-0.13869 11.98549,-0.13869 -11.98549,-0.13869 11.98549,-0.13868 -11.98549,-0.13869 11.98549,-0.1387 -11.98549,-0.13868 11.98549,-0.13869 -11.98549,-0.13869 11.98549,-0.13868 -11.98549,-0.1387 11.98549,-0.13869 -11.98549,-0.13869 11.98549,-0.13868 -11.98549,-0.13869 11.98549,-0.1387 -11.98549,-0.13867 11.98549,-0.1387 -11.98549,-0.13869 z"
+       prop_scale="1"
+       prop_units="false"
+       scale_y_rel="false"
+       spacing="0"
+       tang_offset="0"
+       vertical_pattern="false" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="status"
+     style="display:inline"
+     transform="translate(-201,-317)">
+    <path
+       sodipodi:cx="-11.667262"
+       sodipodi:cy="107.74711"
+       d="m -11.667264,99.897414 c 0,1.109506 0,2.219016 0,3.328526 -1.885833,-0.0501 -3.927382,1.51647 -4.367108,3.35101 l 0,0 c -0.536452,1.80861 0.448314,4.18605 2.106528,5.0856 1.608145,0.98628 4.1594463,0.65039 5.4575274,-0.7185 l 8e-7,0 c 1.36889,-1.29808 1.7047751,-3.84938 0.7184968,-5.45752 0.9999894,1.60022 0.68818,4.16442 -0.6849116,5.49111 -1.3043011,1.39548 -3.8809344,1.76047 -5.5386084,0.76718 0,0 -10e-7,0 -10e-7,0 -1.694488,-0.90596 -2.71915,-3.29432 -2.206285,-5.17026 -0.542943,1.86817 0.442899,4.29309 2.159661,5.25101 0,0 0,0 0,0 1.682888,1.04073 4.3225046,0.71836 5.7175113,-0.71565 1.4558464,-1.37317 1.8300925,-4.02492 0.7958916,-5.76384 1.0609453,1.72348 0.7336603,4.40037 -0.7303817,5.82935 -1.4071398,1.48588 -4.0961672,1.86503 -5.8756662,0.81061 0,0 0,0 0,0 -1.807249,-0.98112 -2.874665,-3.47312 -2.335422,-5.48084 -0.568944,2.00004 0.460139,4.52815 2.289382,5.56058 0,0 10e-7,0 10e-7,0 1.804395,1.10126 4.5556167,0.76419 6.0523255,-0.75973 1.5457598,-1.47487 1.934699,-4.23823 0.8399709,-6.09865 1.1214734,1.84498 0.7794971,4.63348 -0.7744586,6.16416 -1.5088423,1.57579 -4.3094768,1.96964 -6.2104868,0.8547 0,0 -10e-7,0 -10e-7,0 -1.919733,-1.05563 -3.030392,-3.65083 -2.465148,-5.79042 -0.594946,2.13192 0.477378,4.76322 2.419107,5.87016 0,0 10e-7,0 10e-7,0 1.925908,1.16179 4.7887382,0.81002 6.3871528,-0.80382 1.6356764,-1.57657 2.0393092,-4.45154 0.8840517,-6.43347 1.1820028,1.96649 0.8253329,4.8666 -0.8185394,6.49899 -1.6105481,1.66571 -4.5227911,2.07425 -6.5453141,0.89877 0,0 -10e-7,0 -10e-7,0 -2.032219,-1.13013 -3.186119,-3.82852 -2.594873,-6.09999 -0.620949,2.26379 0.494618,4.99829 2.548832,6.17974 0,0 1e-6,0 1e-6,0 2.04742,1.22231 5.0218598,0.85586 6.7219801,-0.8479 1.725593,-1.67828 2.1439194,-4.66486 0.9281325,-6.7683 1.2425312,2.088 0.871166,5.09972 -0.8626225,6.83381 -1.7122535,1.75563 -4.7361041,2.17886 -6.8801351,0.94286 0,0 -10e-7,0 -10e-7,0 -2.144702,-1.20465 -3.341841,-4.00623 -2.724593,-6.40957 -0.64695,2.39566 0.511857,5.23335 2.678553,6.48931 0,0 1e-6,0 1e-6,0 2.168928,1.28284 5.2549729,0.90169 7.0567953,-0.89198 1.8155064,-1.77998 2.2485258,-4.87816 0.9722118,-7.10312 1.3030603,2.20952 0.9170054,5.33284 -0.9066971,7.16864 -1.8139564,1.84554 -4.949415,2.28347 -7.214962,0.98694 0,0 -10e-7,0 -10e-7,0 -2.25719,-1.27916 -3.497575,-4.18393 -2.854326,-6.71915 -0.672951,2.52754 0.5291,5.46842 2.808284,6.79889 0,0 2e-6,0 2e-6,0 2.290444,1.34337 5.4880993,0.94753 7.391628,-0.93606 1.9054232,-1.88169 2.3531346,-5.09148 1.0162902,-7.43795 1.3635887,2.33103 0.9628385,5.56596 -0.9507803,7.50346 -1.9156617,1.93546 -5.1627279,2.38808 -7.5497839,1.03102 10e-7,0 -10e-7,0 -10e-7,0 -2.369672,-1.35367 -3.653296,-4.36163 -2.984044,-7.02872 -0.698954,2.65941 0.546336,5.70348 2.938003,7.10847 0,0 10e-7,0 10e-7,0 2.411953,1.4039 5.721216,0.99336 7.7264499,-0.98014 1.9953396,-1.9834 2.4577462,-5.3048 1.0603734,-7.77278 1.4241172,2.45254 1.0086717,5.79908 -0.9948634,7.83829 -2.0173671,2.02537 -5.3760409,2.49268 -7.8846049,1.07509 0,0 -1e-6,0 -1e-6,0 -2.482155,-1.42817 -3.809018,-4.53933 -3.113764,-7.33828 -0.724956,2.79128 0.563573,5.93854 3.067722,7.41803 0,0 1e-6,0 1e-6,0 2.533462,1.46443 5.9543326,1.0392 8.0612718,-1.02422 2.0852559,-2.0851 2.5623579,-5.5181 1.1044566,-8.1076 1.4846475,2.57405 1.0545101,6.0322 -1.0389419,8.17312 -2.1190733,2.11529 -5.5893575,2.59729 -8.2194375,1.11918 0,0 -2e-6,0 -2e-6,0 -2.594643,-1.50269 -3.964751,-4.71704 -3.243495,-7.64787 -0.750958,2.92315 0.580815,6.17361 3.197454,7.72761 0,0 1e-6,0 1e-6,0 2.654978,1.52496 6.187459,1.08504 8.3961045,-1.0683 2.1751728,-2.18681 2.6669667,-5.73142 1.148535,-8.44243 1.545176,2.69557 1.1003433,6.26533 -1.083025,8.50794 -2.2207786,2.20521 -5.8026705,2.70191 -8.5542595,1.16326 0,0 -10e-7,0 -10e-7,0 -2.707126,-1.5772 -4.120473,-4.89474 -3.373214,-7.95744 -0.77696,3.05503 0.598054,6.40867 3.327174,8.03718 0,0 10e-7,0 10e-7,0 2.776486,1.58549 6.4205721,1.13087 8.7309197,-1.11238 2.2650861,-2.28851 2.7715731,-5.94473 1.1926143,-8.77724 1.6057051,2.81707 1.1461827,6.49843 -1.1270996,8.84276 -2.3224816,2.29512 -6.0159814,2.80652 -8.8890854,1.20734 0,0 -2e-6,0 -2e-6,0 -2.819614,-1.65171 -4.276206,-5.07244 -3.502947,-8.26702 -0.802961,3.1869 0.615299,6.64374 3.456907,8.34676 0,0 2e-6,0 2e-6,0 2.898,1.64602 6.6536951,1.1767 9.0657457,-1.15646 2.355,-2.39022 2.8761767,-6.15805 1.2366888,-9.11207 1.6662322,2.93858 1.1920167,6.73155 -1.1711788,9.17758 -2.4241837,2.38503 -6.2292887,2.91112 -9.2239007,1.25142 0,0 -2e-6,0 -2e-6,0 -2.932095,-1.72622 -4.431928,-5.25014 -3.632667,-8.57659 -0.828965,3.31878 0.632533,6.8788 3.586624,8.65634 0,0 1e-6,0 1e-6,0 3.019511,1.70654 6.8868152,1.22254 9.4005743,-1.20054 2.4449193,-2.49193 2.9807935,-6.37137 1.280776,-9.4469 1.7131368,3.06796 1.2002993,6.95973 -1.2486403,9.47903 0,0 -9e-7,0 -9e-7,0 -2.5197112,2.44853 -6.4112541,2.96038 -9.4781571,1.24712 -3.016885,-1.79989 -4.518369,-5.42602 -3.657347,-8.83143 1e-6,0 0,0 0,0 0.957598,-3.37952 4.07128,-5.768143 7.583069,-5.817816 z"
+       sodipodi:end="10.995574"
+       id="path14339"
+       sodipodi:open="true"
+       inkscape:path-effect="#path-effect14384"
+       sodipodi:rx="6.1871843"
+       sodipodi:ry="6.1871843"
+       sodipodi:start="5.7595865"
+       style="color:#000000;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:3.38507128;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0.88624425,0,0,0.88624425,219.31943,229.52028)"
+       sodipodi:type="arc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="devices"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="apps"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="places"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="mimetypes"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="emblems"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="g71291"
+     inkscape:label="emotes"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="g4953"
+     inkscape:label="categories"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="actions"
+     style="display:inline"
+     transform="translate(-201,-317)" />
+</svg>

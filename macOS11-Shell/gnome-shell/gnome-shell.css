@@ -187,10 +187,11 @@ StScrollBar StButton#vhandle:active {
 .popup-submenu-menu-item:checked {
     background-gradient-direction: none;
     box-shadow: inset 0px 3px 4px rgba(0,0,0,0);
-    background-color: rgba(150,150,150,.2);}
+    background-color: transparent;}
 .popup-menu .popup-sub-menu {
     background-gradient-direction: none;
-    background-color: rgba(150,150,150,.06);
+    background-color: rgba(41,33,33,0.3);
+    border-radius:0 0 10px 10px;
     box-shadow: none;
     padding:0px 0px;}
 .popup-menu .popup-menu-content {
@@ -213,6 +214,12 @@ padding: 0.45em 0.75em 0.45em 0; }
 .popup-menu .popup-menu-item:active {/*SELECTION*/
     background-color:  rgba(41,33,33,0.4);
     color: white;}
+.popup-menu .popup-menu-item:checked {
+    background-color: rgba(41,33,33,0.3);
+    border-radius:10px 10px 0 0;
+    color: white;}
+.popup-menu .popup-menu-item:checked.selected {
+    background-color:  rgba(41,33,33,0.4);}
 .popup-menu .popup-menu-item:insensitive {
     font-style:italic;
     color: rgba(38, 50, 56, 0.375);
