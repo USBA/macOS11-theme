@@ -177,6 +177,17 @@ StScrollBar StButton#vhandle:active {
   -slider-active-border-color: transparent;
   -slider-border-width: 0px;
   -slider-handle-radius: 0px;
+/* GNOME 3.30 */
+-barlevel-height: 25px;
+  -barlevel-background-color: rgba(58,50,50, 0.7);
+  -barlevel-border-color: transparent;
+  -barlevel-active-background-color: rgba(255,255,255, 0.6);
+  -barlevel-active-border-color: transparent;
+  -barlevel-overdrive-color: transparent;
+  -barlevel-overdrive-border-color: transparent;
+  -barlevel-overdrive-separator-width: 0px;
+  -barlevel-border-width: 0;
+  -slider-handle-radius: 0px;
 }
 
 
@@ -195,7 +206,7 @@ StScrollBar StButton#vhandle:active {
     box-shadow: none;
     padding:0px 0px;}
 .popup-menu .popup-menu-content {
-    padding: 0em 0em; }
+    padding: 0 0; }
 /*4.5*/
 .popup-menu .popup-menu-item {
     font-weight: normal;
@@ -204,7 +215,7 @@ StScrollBar StButton#vhandle:active {
     border-radius:10px;
     border: 0px;
     border-color: transparent;
-    padding: 0em 0em 0em 0em;
+    padding: 0 0 0 0;
     }
 .popup-menu .popup-menu-item:ltr {
 padding: 0.45em 0.75em 0.45em 0; }
@@ -759,8 +770,8 @@ StEntry:insensitive,
 #appMenu {
     spinner-image: url("resource:///org/gnome/shell/theme/process-working.svg");
   color: #ffffff;
-  padding: 0 8px 0 0px;
-  spacing: 4px;
+  padding: 2px 8px 0 0px;
+  spacing:0px;
     font-weight: 300;}
 
 /* Remove Shadows of Panel-buttons of GNOME 3.26 */
@@ -1212,8 +1223,8 @@ transition-duration:300ms;
 
 .icon-grid {/*30 136 136*/
     spacing: 30px;
-    -shell-grid-horizontal-item-size: 128px;
-    -shell-grid-vertical-item-size: 128px;
+    -shell-grid-horizontal-item-size: 140px;
+    -shell-grid-vertical-item-size: 140px;
     icon-size: 96px;
 }
 
@@ -1699,20 +1710,18 @@ color: white; }
 /* WEATHER BUTTON & WORLD CLOCK NEW 3.24*/
 
 .weather-header, .world-clocks-header {
-color: rgba(38, 50, 56, 0.8);
+color: rgba(255,255,255,0.9);
  font-weight: 300;}
 
 .weather-button, .world-clocks-button {
-color: rgba(38, 50, 56, 0.8);
-background-color: rgba(210,210,210, 0.8);
+color: rgba(255,255,255,0.9);
+background-color: rgba(101,93,93, 0.3);
 padding: 0.4em;
 border-radius: 10px;
 }
 .weather-button:hover, .weather-button:focus, .world-clocks-button:hover,.world-clocks-button:focus  {
-color: rgba(38, 50, 56, 0.8);
-background-color: rgba(220,220,220, 0.8);
-/*
-background-color: rgba(41,33,33, 0.5);*/ }
+color: rgba(255,255,255,0.9);
+background-color: rgba(101,93,93, 0.5); }
 
 
 /* Message List & Popup-menu NEW 3.24 */

@@ -242,7 +242,7 @@ button {
   min-height: 22px;
   min-width: 20px;
   transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 3px;
   padding: 2px 6px;
   color: #5c616c;
@@ -256,19 +256,21 @@ button {
     background-image: none;
     transition: none; }
     button.flat:hover, button.sidebar-button:hover {
-      transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-      transition-duration: 350ms; }
+    color: rgba(82, 93, 118, 0.8);
+    border-color: rgba(82, 93, 118, 0.1);
+    background-color: #ffffff; /*rgba(251, 251, 252, 0.9);*/
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1); }
       button.flat:hover:active, button.sidebar-button:hover:active {
         transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
   button:hover {
-    color: #5c616c;
-    border-color: #cfd6e6;
-    background-color: white;
-    -gtk-icon-effect: highlight; }
+    color: rgba(82, 93, 118, 0.8);
+    border-color: rgba(82, 93, 118, 0.1);
+    background-color: #ffffff; /*rgba(251, 251, 252, 0.9);*/
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1); }
   button:active, button:checked {
-    color: #ffffff;
-    border-color: rgba(0, 122, 255, 1);
-    background-color: rgba(0, 122, 255, 1);
+    color: #000000;
+    border-color: transparent;
+    background-color: transparent;
     background-clip: border-box;
     transition-duration: 50ms; }
     button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
@@ -1099,7 +1101,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
       background-color: white;
       color: #FC4138; }
 
-.primary-toolbar button, headerbar button {
+.primary-toolbar button, headerbar button, headerbar button.image-button {
   min-width: 22px;
   color: rgba(82, 93, 118, 0.8);
   outline-offset: -3px;
@@ -1107,17 +1109,24 @@ window.csd > .titlebar:not(headerbar):backdrop {
   border-color: #f0f0f0;}
   .primary-toolbar button:backdrop, headerbar button:backdrop {
     opacity: 0.7; }
-  .primary-toolbar button:hover, headerbar button:hover {
+  .primary-toolbar button:hover, headerbar button:hover, headerbar button.image-button:hover {
     color: rgba(82, 93, 118, 0.8);
     border-color: rgba(82, 93, 118, 0.1);
     background-color: #ffffff; /*rgba(251, 251, 252, 0.9);*/
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1); }
- .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked {
-   box-shadow: none;
-    color: #ffffff;
-    border-color: rgba(0, 122, 255, 1);
-    background-color: rgba(0, 122, 255, 1);
+ .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked, headerbar button.image-button:checked, headerbar button.image-button:active {
+   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1);
+    color: #000000;
+    border-color: transparent;
+    background-color: transparent;
     background-clip: border-box; }
+ .primary-toolbar button:active:hover, headerbar button:active:hover, .primary-toolbar button:checked:hover, headerbar button:checked:hover { 
+color: #000000;
+    border-color: rgba(82, 93, 118, 0.1);
+    background-color: #ffffff; /*rgba(251, 251, 252, 0.9);*/
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 2px 4px 0 rgba(0,0,0,0.1); }
+
+
   .primary-toolbar button:disabled, headerbar button:disabled {
     background-color: rgba(231, 232, 235, 0);
     border-color: rgba(231, 232, 235, 0); }
@@ -2996,6 +3005,30 @@ headerbar button.titlebutton,
   headerbar button.titlebutton.minimize:active,
   .titlebar button.titlebutton.minimize:active {
     background-image: -gtk-scaled(url("assets/titlebutton-minimize-active.png"), url("assets/titlebutton-minimize-active@2.png")); }
+
+/*macOS11 nautilus path-bar gnome 3.30*/
+.nautilus-window .path-bar button.text-button,
+.nautilus-window .path-bar button.text-button.image-button,
+.nautilus-window .path-bar button {
+  color: #353535;
+  border-color: transparent;
+  background-color: transparent;}
+
+.nautilus-window .path-bar button.text-button:hover,
+.nautilus-window .path-bar button.text-button.image-button:hover,
+.nautilus-window .path-bar button:hover {
+color: #000000; 
+box-shadow: none;}
+
+.nautilus-window .path-bar button.text-button:checked,
+.nautilus-window .path-bar button.text-button.image-button:checked,
+.nautilus-window .path-bar button:checked {
+color: #000000;
+font-weight: bold;
+border-color: transparent;
+background-color: #ffffff;
+box-shadow: none;}
+
 
 
 /*macOS11 nautilus sidebar*/
