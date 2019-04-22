@@ -3007,6 +3007,7 @@ headerbar button.titlebutton,
     background-image: -gtk-scaled(url("assets/titlebutton-minimize-active.png"), url("assets/titlebutton-minimize-active@2.png")); }
 
 /*macOS11 nautilus path-bar gnome 3.30*/
+
 .nautilus-window .path-bar button.text-button,
 .nautilus-window .path-bar button.text-button.image-button,
 .nautilus-window .path-bar button {

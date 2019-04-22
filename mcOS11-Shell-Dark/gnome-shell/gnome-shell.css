@@ -3070,6 +3070,23 @@ Yellow color button
 /* Profile PHOTO */
 
 .system-switch-user-submenu-icon.user-icon {
+  icon-size: 20px;
+  padding: 0 2px;
+}
+
+.system-switch-user-submenu-icon.default-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+  border: none;
+}
+
+.system-switch-user-submenu-icon {
+  icon-size: 16px;
+  padding: 0 4px;
+  border: none;
+}
+/*
+.system-switch-user-submenu-icon.user-icon {
   icon-size: 32px;
   padding: 0px;
   border: 0px;
@@ -3080,7 +3097,7 @@ Yellow color button
   icon-size: 16px;
   padding: 2px;
   border: 0px;
-  border-radius:16px}
+  border-radius:16px} */
 
 /* Running App */
 .app-well-app.running > .overview-icon {
