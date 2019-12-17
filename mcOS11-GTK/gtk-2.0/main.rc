@@ -11,13 +11,13 @@ style "default" {
   GtkToolbar::internal-padding = 4
   GtkToolButton::icon-spacing = 4
 
-  GtkWidget::tooltip-radius = 2
+  GtkWidget::tooltip-radius = 8
   GtkWidget::tooltip-alpha = 235
   GtkWidget::new-tooltip-style = 1 #for compatibility
 
-  GtkSeparatorMenuItem::horizontal-padding = 3
-  GtkSeparatorMenuItem::wide-separators = 1
-  GtkSeparatorMenuItem::separator-height = 1
+  GtkSeparatorMenuItem::horizontal-padding = 2
+  GtkSeparatorMenuItem::wide-separators = 0
+  GtkSeparatorMenuItem::separator-height = 0
 
   GtkButton::child-displacement-y = 0
   GtkButton::default-border = { 0, 0, 0, 0 }
@@ -701,14 +701,24 @@ style "menu" {
 
 style "menu_framed_box" {
 
-  engine "adwaita" {
+#  engine "adwaita" { # default menu border
+#  }
+
+  engine "pixmap" {
+    image {
+      function = BOX
+      file     = "assets/frame.png"
+      border   = { 1, 1, 1, 1 }
+      stretch  = TRUE
+    }
   }
+
 }
 
 style "menu_item"
 {
   xthickness = 2
-  ythickness = 5
+  ythickness = 3
 
   # HACK: Gtk doesn't actually read this value
   # while rendering the menu items, but Libreoffice
@@ -720,7 +730,7 @@ style "menu_item"
   # See https://bugs.freedesktop.org/show_bug.cgi?id=38038
   bg[SELECTED] = @selected_fg_color
 
-  fg[NORMAL] = @fg_color
+  fg[NORMAL] = @menu_fg
   fg[SELECTED] = @selected_fg_color
 
   fg[PRELIGHT] = @selected_fg_color
@@ -929,8 +939,8 @@ style "menu_item"
 
 style "button" {
 
-  xthickness = 4
-  ythickness = 4
+  xthickness = 2
+  ythickness = 2
 
   engine "pixmap" {
 
@@ -945,9 +955,20 @@ style "button" {
     image {
       function = BOX
       state = PRELIGHT
+      shadow = OUT
       file = "assets/button-hover.png"
       border = { 4, 4, 4, 4 }
       stretch = TRUE
+    }
+
+    # Don't add hover effect on pressed buttons
+    image {
+      function = BOX
+      state    = PRELIGHT
+      shadow   = IN
+      file     = "assets/button-active.png"
+      border   = {4, 4, 4, 4}
+      stretch  = TRUE
     }
 
     image {
@@ -1986,7 +2007,7 @@ style "treeview" {
   ythickness = 0
 
 
-}    
+}
 
 style "scrolled_window" {
 
@@ -2214,7 +2235,7 @@ style "xfwm-tabwin" {
   Xfwm4TabwinWidget::border-alpha = 1.0
   Xfwm4TabwinWidget::icon-size = 64
   Xfwm4TabwinWidget::alpha = 1.0
-  Xfwm4TabwinWidget::border-radius = 2
+  Xfwm4TabwinWidget::border-radius = 8
 
 	bg[NORMAL] = @bg_color
 	bg[SELECTED] = @bg_color
@@ -2236,6 +2257,45 @@ style "xfwm-tabwin-button" {
   font_name = "bold"
   bg[SELECTED] = @selected_bg_color
 }
+
+# Thunar
+
+style "thunar_location_button" = "location_button" {
+  ThunarLocationButtons::spacing = 0
+
+  engine "pixmap" {
+    image {
+      function = BOX
+      state    = NORMAL
+      file     = "assets/null.png"
+      border   = { 2, 2, 2, 2 }
+      stretch  = TRUE
+    }
+    image {
+      function = BOX
+      state    = PRELIGHT
+      file     = "assets/pathbar_button_prelight.png"
+      border   = { 2, 2, 2, 2 }
+      stretch  = TRUE
+    }
+    image {
+      function = BOX
+      state    = ACTIVE
+      file     = "assets/pathbar_button_active.png"
+      border   = { 0, 0, 0, 2 }
+      stretch  = TRUE
+    }
+    image {
+      function = BOX
+      state    = INSENSITIVE
+      file     = "assets/null.png"
+      border   = { 2, 2, 2, 2 }
+      stretch  = TRUE
+    }
+  }
+}
+
+widget_class "*ThunarLocationButtons*" style "thunar_location_button"
 
 # Chromium
 style "chrome_menu_item" {

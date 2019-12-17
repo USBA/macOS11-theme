@@ -1,13 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Human-Mobile
-Comment=iOS like shell theme for GNOME desktop.
+Name=mcOS11
+Comment=macOS11 concept theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Macbuntu
-MetacityTheme=Macbuntu
-IconTheme=Macbuntu-os
-CursorTheme=DMZ-Black
-ButtonLayout=close,minimize,maximize:
-X-Ubuntu-UseOverlayScrollbars=true
+GtkTheme=mcOS11
+MetacityTheme=mcOS11
+IconTheme=mcOS11
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close

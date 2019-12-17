@@ -11,7 +11,7 @@ style "dark-sidebar" {
   base[NORMAL] = @dark_sidebar_bg
   base[INSENSITIVE] = @dark_sidebar_bg
 
-  text[NORMAL] = "#BAC3CF"
+  text[NORMAL] = @fg_color
   text[ACTIVE] = @selected_fg_color
   text[SELECTED] = @selected_fg_color
 }
@@ -143,6 +143,9 @@ widget_class "*MousepadSearchBar*.<GtkEntry>"         style "entry_border"
 
 # Mousepad find and replace
 widget_class "*MousepadReplaceDialog*.<GtkEntry>"     style "entry_border"
+
+# Thunar bulk rename
+widget_class "*ThunarRenamerDialog*.<GtkEntry>"         style "entry_border"
 
 # Hexchat input box
 class "SexySpellEntry"                                style:highest "entry_border"
