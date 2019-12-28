@@ -568,7 +568,7 @@ headerbar switch { margin-top: 11px; margin-bottom: 11px; }
 
 #MozillaGtkWidget.background headerbar button.close:hover:Backdrop, headerbar button.close:hover:Backdrop { color: #b21900; background-color: #ff3b1c; border-color: #b21900;}
 
-#MozillaGtkWidget.background headerbar button.close:active, headerbar button.close:active { color: #ffffff; background-color: #ff3b1c; box-shadow: 0 2px 4px 0 rgba(255, 59, 28, 0.3); border-color: #b21900;} 
+#MozillaGtkWidget.background headerbar button.close:active, headerbar button.close:active { color: #333333; background-color: #ff3b1c; box-shadow: 0 2px 4px 0 rgba(255, 59, 28, 0.3); border-color: #b21900;} 
 
 /* Minimize */
 #MozillaGtkWidget.background headerbar button.minimize, headerbar button.minimize { color: #ffcc00; background-color: #ffcc00; border-radius: 999; min-height: 8px; min-width: 8px; padding: 0px 0px; border: 0.5px solid; border-color: #987a00; }
@@ -577,7 +577,7 @@ headerbar switch { margin-top: 11px; margin-bottom: 11px; }
 
 #MozillaGtkWidget.background headerbar button.minimize:hover:Backdrop, headerbar button.minimize:hover:Backdrop { color: #987a00; background-color: #ffcc00; border-color: #987a00; }
 
-#MozillaGtkWidget.background headerbar button.minimize:active, headerbar button.minimize:active { color: #ffffff; background-color: #ffcc00; box-shadow: 0 2px 4px 0 rgba(255, 204, 0, 0.3); border-color: #987a00; } 
+#MozillaGtkWidget.background headerbar button.minimize:active, headerbar button.minimize:active { color: #333333; background-color: #ffcc00; box-shadow: 0 2px 4px 0 rgba(255, 204, 0, 0.3); border-color: #987a00; } 
 
 /* Maximize */
 #MozillaGtkWidget.background headerbar button.maximize, headerbar button.maximize { color: #4cd964; background-color: #4cd964; border-radius: 999; min-height: 8px; min-width: 8px; padding: 0px 0px; border: 0.5px solid; border-color: #1f9332; }
@@ -586,7 +586,7 @@ headerbar switch { margin-top: 11px; margin-bottom: 11px; }
 
 #MozillaGtkWidget.background headerbar button.maximize:hover:Backdrop, headerbar button.maximize:hover:Backdrop { color: #1f9332; background-color: #4cd964; border-color: #1f9332; }
 
-#MozillaGtkWidget.background headerbar button.maximize:active, headerbar button.maximize:active { color: #ffffff; background-color: #4cd964; box-shadow: 0 2px 4px 0 rgba(76, 217, 100, 0.3); border-color: #1f9332; } 
+#MozillaGtkWidget.background headerbar button.maximize:active, headerbar button.maximize:active { color: #333333; background-color: #4cd964; box-shadow: 0 2px 4px 0 rgba(76, 217, 100, 0.3); border-color: #1f9332; } 
 
 
 /* All buttons backdrop */

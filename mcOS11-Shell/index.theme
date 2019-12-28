@@ -1,13 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Human-Mobile
-Comment=iOS like shell theme for GNOME desktop.
+Name=ChromeOS-light
+Comment=An Materia Gtk+ theme based on Elegant Design
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Macbuntu
-MetacityTheme=Macbuntu
-IconTheme=Macbuntu-os
-CursorTheme=DMZ-Black
-ButtonLayout=close,minimize,maximize:
-X-Ubuntu-UseOverlayScrollbars=true
+GtkTheme=ChromeOS-light
+MetacityTheme=ChromeOS-light
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu
