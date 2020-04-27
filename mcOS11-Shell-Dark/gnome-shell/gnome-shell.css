@@ -2118,7 +2118,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   border: none;
   caret-color: rgba(0, 0, 0, 0.75);
   color: rgba(236, 239, 241, 0.6);
-  background-color: rgba(250, 251, 252, 0.2);
+  background-color: rgba(250, 251, 252, 0.3);
   border-radius: 10px;
   border-color: transparent;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
@@ -2130,7 +2130,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 
 .search-entry:focus, .app-folder-dialog .folder-name-container .folder-name-entry:focus {
   color: rgba(236, 239, 241, 0.8);
-  background-color: rgba(250, 251, 252, 0.2);
+  background-color: rgba(250, 251, 252, 0.3);
   border-color: transparent;
   border: none;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.55);
@@ -2140,7 +2140,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 .search-entry .search-entry-icon, .app-folder-dialog .folder-name-container .folder-name-entry .search-entry-icon {
   icon-size: 16px;
   padding: 0 0;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(236, 239, 241, 0.4);
 }
 
 .search-entry:hover .search-entry-icon, .app-folder-dialog .folder-name-container .folder-name-entry:hover .search-entry-icon, .search-entry:focus .search-entry-icon, .app-folder-dialog .folder-name-container .folder-name-entry:focus .search-entry-icon {
@@ -2221,7 +2221,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   color: rgba(255, 255, 255, 0.85);
   background-color: rgba(255, 255, 255, 0.13);
   padding: 3px 0;
-  margin: 0px;
+  margin: 0;
   border: none;
   border-radius: 10px;
 }
@@ -2242,11 +2242,11 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 }
 
 .dash-item-container > StWidget {
-  padding: 3px 6px;
+  padding: 0px 0px;
 }
 
 .dash-label {
-  border-radius: 10px;
+  border-radius: 99px;
   padding: 8px 10px;
   color: rgba(255, 255, 255, 0.85);
   background-color: rgba(0, 0, 0, 0.75);
@@ -2280,32 +2280,32 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   margin-bottom: 32px;
   padding: 0;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .app-view-control {
-  padding: 0 16px;
+  padding: 0 0;
   margin: 3px;
   border-radius: 10px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
   background-color: transparent;
 }
 
 .app-view-control:hover {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   background-color: rgba(255, 255, 255, 0.2);
 }
 
 .app-view-control:active {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .app-view-control:checked {
   color: white;
-  background-color: #5AC8FA;
-  box-shadow: none;
+  background-color: #858585;
+  box-shadow: 0 2px 4px rgba(255,255,255,0.3);
 }
 
 .app-view-control:first-child {
