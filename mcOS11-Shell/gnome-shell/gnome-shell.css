@@ -2393,11 +2393,11 @@ StWidget.focused .app-well-app-running-dot {
 SHOW ALL APPS BUTTON
 ==========*/
 
-.show-apps .show-apps-icon { border: none; background-image: url("assets/launchpad.svg"); background-size: contain; color: transparent; -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.14); }
+.show-apps .show-apps-icon { border: none; background-image: url("assets/launchpad.png"); background-size: contain; color: transparent; -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.14); }
 
-.show-apps:hover .show-apps-icon, .show-apps:focus .show-apps-icon { color: transparent; background-image: url("assets/launchpad.svg"); -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.22); transition-duration: 0.2s; }
+.show-apps:hover .show-apps-icon, .show-apps:focus .show-apps-icon { color: transparent; background-image: url("assets/launchpad.png"); -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.22); transition-duration: 0.2s; }
 
-.show-apps:active .show-apps-icon, .show-apps:checked .show-apps-icon { color: transparent; background-image: url("assets/launchpad.svg"); -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.22); transition-duration: 0.2s; }
+.show-apps:active .show-apps-icon, .show-apps:checked .show-apps-icon { color: transparent; background-image: url("assets/launchpad.png"); -st-background-image-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.22); transition-duration: 0.2s; }
 
 .show-apps .overview-icon,
 .show-apps:hover .overview-icon,
