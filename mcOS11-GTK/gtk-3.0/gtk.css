@@ -956,7 +956,8 @@ scrollbar.horizontal button.up { -gtk-icon-source: -gtk-icontheme("pan-start-sym
 treeview ~ scrollbar.vertical { border-top: 1px solid #e0e0e0; margin-top: -1px; }
 
 /********** Switch * */
-switch { font-size: 0; outline-offset: -4px; min-width: 36px; min-height: 18px; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); border: 2px solid #cccccc; border-radius: 999px; background-color: #cccccc; color: #ffffff; background-image: image(-gtk-recolor(url("assets/switch-symbols-symbolic.svg")), -gtk-recolor(url("assets/switch-symbols-symbolic.symbolic.png"))); background-repeat: no-repeat; background-position: center; background-size: contain; }
+
+switch { font-size: 0; outline-offset: -4px; min-width: 36px; min-height: 18px; transition: all 200ms cubic-bezier(0.25, 0.46, 0.45, 0.94); border: 0px solid #cccccc; border-radius: 999px; background-color: #cccccc; color: transparent; }
 
 switch:checked { border-color: #007aff; background-color: #007aff; box-shadow: 0 2px 4px rgba(0, 122, 255, 0.3); }
 
