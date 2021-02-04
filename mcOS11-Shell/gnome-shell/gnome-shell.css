@@ -198,10 +198,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   -slider-border-color: transparent;
   -slider-active-background-color: rgba(50, 50, 50, 0.6);
   -slider-active-border-color: transparent;
-  -slider-border-width: 0;
-  -slider-handle-radius: 0;
-  -slider-handle-border-width: 0;
-  -slider-handle-border-color: transparent;
+  -slider-border-width: 1px;
+  -slider-handle-radius: 10px;
+  -slider-handle-border-width: 1px;
+  -slider-handle-border-color: rgba(0, 0, 0, 0.12);
   -barlevel-height: 25px;
   -barlevel-background-color: rgba(0, 0, 0, 0.2);
   -barlevel-border-color: transparent;
@@ -1509,7 +1509,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 }
 
 .calendar {
-  background-color: rgba(190, 190, 190, 0.5);
+  background: rgba(190, 190, 190, 0.5);
   padding: 0.4em;
   border-radius: 10px;  
   margin-bottom: 0;
@@ -1548,16 +1548,18 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
   border-right-width: 0;
 }
 
+.message, 
 .datemenu-today-button,
 .world-clocks-button,
 .weather-button,
+.events-button,
 .events-section-title {
   min-height: 24px;
-  padding: 4px 8px;
-  border-radius: 5px;
+  padding: 8px 8px;
+  border-radius: 10px;
   border: none;
   box-shadow: none;
-  background: none;
+  background: rgba(190, 190, 190, 0.5);
   color: rgba(0, 0, 0, 1);
 }
 
@@ -1566,6 +1568,8 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 .world-clocks-button:focus,
 .weather-button:hover,
 .weather-button:focus,
+.events-button:hover,
+.events-button:focus,
 .events-section-title:hover,
 .events-section-title:focus {
   color: rgba(0, 0, 0, 0.87);
@@ -1575,6 +1579,7 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 .datemenu-today-button:active,
 .world-clocks-button:active,
 .weather-button:active,
+.events-button:active,
 .events-section-title:active {
   color: rgba(0, 0, 0, 0.87);
   background-color: rgba(0, 0, 0, 0.4);
@@ -1599,9 +1604,35 @@ Gjs_ArcMenu_ApplicationsButton.panel-button {
 
 .world-clocks-header,
 .weather-header,
+.weather-button,
+.events-button,
 .events-section-title {
+  padding: 12px;
+  margin: 2px 4px;
   color: rgba(0, 0, 0, 0.54);
   font-weight: bold;
+}
+
+/* Events */
+.events-button .events-box {
+  spacing: 6px;
+}
+
+.events-button .events-list {
+  spacing: 12px;
+  text-shadow: none;
+}
+
+.events-button .events-title {
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-shadow: none;
+}
+
+.events-button .event-time {
+  color: #999999;
+  font-feature-settings: "tnum";
 }
 
 .world-clocks-grid {
